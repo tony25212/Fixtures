@@ -14,7 +14,7 @@ import streamlit as st
 
 # Define driver, options and service
 URL = 'https://www.rfyl.org.uk/core/clubs.aspx'
-edge_driver_path = "Web_driver/msedgedriver.exe"
+edge_driver_path = "Web_driver/msedgedriver"
 
 # Set execute permission for msedgedriver.exe
 os.chmod(edge_driver_path, 0o755)
