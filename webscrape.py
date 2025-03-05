@@ -20,7 +20,7 @@ URL = 'https://www.rfyl.org.uk/core/clubs.aspx'
 #URL = "https://bbc.com"
 # Define the pattern to search for the executable
 edge_driver_path = "Web_driver/msedgedriver.exe"
-os.chmod(edge_driver_path, 0o755)
+#os.chmod(edge_driver_path, 0o755)
 # Set up the Edge service
 service = Service(edge_driver_path)  # No need to specify the path if msedgedriver is in your PATH
 # Set up Edge options
